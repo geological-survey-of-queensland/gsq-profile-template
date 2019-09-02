@@ -13,6 +13,8 @@ Provide a short introduction to the profile to help the reader understand the co
 <img src="model/profile-template.svg" width="700px"><br>
 Figure 1: Add title of graphic</p>
 
+Add additional text as required to explain the profile.
+
 # Dataset Subclass Profile Name
 Show a subclass where necessary to educate the reader. e.g. A `survey` profile shows a `seismic survey` - a specific type of `survey`.
 
