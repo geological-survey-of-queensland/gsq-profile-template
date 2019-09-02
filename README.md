@@ -13,11 +13,11 @@ Provide a short introduction to the profile to help the reader understand the co
 <img src="model/profile-template.svg" width="700px"><br>
 Figure 1: Add title of graphic</p>
 
-# Dataset Sub-Class Profile Name
-Provide a short introduction to the profile to help the reader understand the context and purpose of the dataset profile.
+# Dataset Subclass Profile Name
+Show a subclass where necessary to educate the reader. e.g. A `survey` profile shows a `seismic survey` - a specific type of `survey`.
 
 <p align="center">
-<img src="model/profile-template.svg" width="700px"><br>
+<img src="model/profile-template.svg" width="600px"><br>
 Figure 2: Add title of graphic</p>
 
 # Dataset Profile Usage
@@ -38,14 +38,15 @@ This profile is presented as a series of files that perform different roles:
 
 
 ## GSQ classes
-> This section lists the GSQ classes that feature in the model. Use links to those classes.  
+> This section lists the GSQ classes that feature in the model. Use links to those classes. Delete the examples listed below as required.
+
 Classes used in this profile:
 1. [Queensland Mining Permit](https://github.com/geological-survey-of-queensland/gsq-permit-profile) - used if the report relates to a permit(s)
 2. [GSQ Survey Profile](https://github.com/geological-survey-of-queensland/gsq-survey-profile) - used if the report is the result of a survey event
 
 
 ## OWL classes
-> This section lists the OWL classes (the internationally defined classes).  
+> This section lists the OWL classes (the internationally defined classes).  Delete the examples listed below as required.
 1. [dcat:Dataset](https://w3c.github.io/dxwg/dcat/#Class:Dataset) - industry report is a special type of dataset
 2. [dcat:Theme](https://w3c.github.io/dxwg/dcat/#Property:resource_theme) - used to categorise the resource, the GSQ themes are described as [skos:Concept](http://www.w3.org/2004/02/skos/core#Concept)s in the vocabulary [GSQ Data Themes](http://vocabs.gsq.digital/vocabulary/gsq-data-themes)
 3. [dcat:Distribution](https://w3c.github.io/dxwg/dcat/#Class:Distribution)
@@ -77,7 +78,8 @@ Classes used in this profile:
 
 
 ## Vocabularies
-> List the vocabularies and link to them if published.  
+> List the vocabularies and link to them if published. Delete the examples listed below as required.
+
 The vocabularies used in this profile are:
 1. [GSQ Data Themes](http://vocabs.gsq.digital/vocabulary/gsq-data-themes)
 2. [Earth Science Data Category](https://vocabs.gsq.digital/vocabulary/earth-science-data-category) - the category(s) of data contained in the report
