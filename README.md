@@ -111,4 +111,4 @@ Geological Survey of Queensland
 <your.email@dnrme.qld.gov.au>
 
 ___
-**Profile Status: Draft**
+**Profile Status:** Draft
