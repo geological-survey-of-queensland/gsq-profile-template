@@ -2,8 +2,8 @@
 Provide a short introduction to the profile to help the reader understand the context and purpose of the dataset profile.
 
 <p align="center">
-<img src="https://github.com/geological-survey-of-queensland/gsq-info-model/blob/master/wiki-photos/profile-review-process.svg"><br>
-Figure 1: Dataset profile review process</p>
+<img src="model/profile-template.svg"><br>
+Figure 1: Add title of graphic</p>
 
 
 
