@@ -1,4 +1,4 @@
-> This is a template for creating GSQ Dataset Profiles.  
+> **This is a template for creating GSQ Dataset Profiles.**  
 > This page uses [Markdown](https://help.github.com/en/articles/basic-writing-and-formatting-syntax) for text formatting.  
 > Recommended reading:  
 > * [What is a dataset profile?](https://github.com/geological-survey-of-queensland/gsq-info-model/wiki/What-is-a-Dataset-Profile%3F)  
