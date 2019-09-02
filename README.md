@@ -1,3 +1,11 @@
+> This is a template for creating GSQ Dataset Profiles.  
+> This page uses [Markdown](https://help.github.com/en/articles/basic-writing-and-formatting-syntax) for text formatting  
+> Recommended reading:  
+> * [What is a dataset profile?](https://github.com/geological-survey-of-queensland/gsq-info-model/wiki/What-is-a-Dataset-Profile%3F)  
+> * [How to create a dataset profile?](https://github.com/geological-survey-of-queensland/gsq-info-model/wiki/How-to-create-a-dataset-profile)  
+> 
+> _NOTE: Remove this text block when no longer required._ :sunglasses:
+
 # Dataset Profile Name
 Provide a short introduction to the profile to help the reader understand the context and purpose of the dataset profile.
 
@@ -5,7 +13,21 @@ Provide a short introduction to the profile to help the reader understand the co
 <img src="model/profile-template.svg" width="700px"><br>
 Figure 1: Add title of graphic</p>
 
+# Dataset Sub-Class Profile Name
+Provide a short introduction to the profile to help the reader understand the context and purpose of the dataset profile.
 
+<p align="center">
+<img src="model/profile-template.svg" width="700px"><br>
+Figure 2: Add title of graphic</p>
+
+# Dataset Profile Usage
+Explain the usage of the dataset profile using both textual and graphical means. This section helps the reader understand the profile and how it is used in the real world.
+
+Consider using an [activity diagram](https://www.lucidchart.com/pages/uml-activity-diagram), [state diagram](https://www.lucidchart.com/pages/uml-state-machine-diagram), or [sequence diagram](https://www.lucidchart.com/pages/uml-sequence-diagram) to explain process flows and temporal states.
+
+<p align="center">
+<img src="model/state-diagram-example.svg" width="600px"><br>
+Figure 3: Add title of graphic</p>
 
 ## Profile Resources
 This profile is presented as a series of files that perform different roles:
@@ -16,12 +38,14 @@ This profile is presented as a series of files that perform different roles:
 
 
 ## GSQ classes
-CLasses used in this profile:
+> This section lists the GSQ classes that feature in the model. Use links to those classes.  
+Classes used in this profile:
 1. [Queensland Mining Permit](https://github.com/geological-survey-of-queensland/gsq-permit-profile) - used if the report relates to a permit(s)
 2. [GSQ Survey Profile](https://github.com/geological-survey-of-queensland/gsq-survey-profile) - used if the report is the result of a survey event
 
 
 ## OWL classes
+> This section lists the OWL classes (the internationally defined classes).  
 1. [dcat:Dataset](https://w3c.github.io/dxwg/dcat/#Class:Dataset) - industry report is a special type of dataset
 2. [dcat:Theme](https://w3c.github.io/dxwg/dcat/#Property:resource_theme) - used to categorise the resource, the GSQ themes are described as [skos:Concept](http://www.w3.org/2004/02/skos/core#Concept)s in the vocabulary [GSQ Data Themes](http://vocabs.gsq.digital/vocabulary/gsq-data-themes)
 3. [dcat:Distribution](https://w3c.github.io/dxwg/dcat/#Class:Distribution)
@@ -44,6 +68,7 @@ CLasses used in this profile:
 
 
 ### [Distribution](https://w3c.github.io/dxwg/dcat/#Class:Distribution) properties not shown in the diagram:
+> Keep the diagram simple by listing the secondary properties here instead of in the diagram.  
 1. [Title](https://w3c.github.io/dxwg/dcat/#Property:distribution_title)
 2. [Description](https://w3c.github.io/dxwg/dcat/#Property:distribution_description)
 3. [Download URL](https://w3c.github.io/dxwg/dcat/#Property:distribution_download_url)
@@ -52,6 +77,7 @@ CLasses used in this profile:
 
 
 ## Vocabularies
+> List the vocabularies and link to them if published.  
 The vocabularies used in this profile are:
 1. [GSQ Data Themes](http://vocabs.gsq.digital/vocabulary/gsq-data-themes)
 2. [Earth Science Data Category](https://vocabs.gsq.digital/vocabulary/earth-science-data-category) - the category(s) of data contained in the report
@@ -59,7 +85,7 @@ The vocabularies used in this profile are:
 4. [Data Access Rights](http://vocabs.gsq.digital/vocabulary/data-access)
 
 
-## License
+## Licence
 The content of this repository is licensed for use with the [Creative Commons 4.0 License](https://creativecommons.org/licenses/by/4.0/). See the [license deed](LICENSE) for details.
 
 
