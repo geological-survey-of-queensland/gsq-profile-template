@@ -2,7 +2,7 @@
 Provide a short introduction to the profile to help the reader understand the context and purpose of the dataset profile.
 
 <p align="center">
-<img src="model/profile-template.svg"><br>
+<img src="model/profile-template.svg" width="700px"><br>
 Figure 1: Add title of graphic</p>
 
 
