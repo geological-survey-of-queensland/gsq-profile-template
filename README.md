@@ -8,6 +8,7 @@
 > <img src="create-template.png">
 >
 > _NOTE: Remove this text block when no longer required._ :sunglasses:
+___
 
 # Dataset Profile Name
 Provide a short introduction to the profile to help the reader understand the context and purpose of the dataset profile.
@@ -109,5 +110,5 @@ Geological Survey of Queensland
 Geological Survey of Queensland  
 <your.email@dnrme.qld.gov.au>
 
-
+___
 **Profile Status: Draft**
