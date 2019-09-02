@@ -18,14 +18,14 @@ Figure 1: Add title of graphic</p>
 
 Add additional text as required to explain the profile.
 
-# Dataset Subclass Profile Name
+# Dataset Subclass Profile Name (optional)
 Show a subclass where necessary to educate the reader. e.g. A `survey` profile shows a `seismic survey` - a specific type of `survey`.
 
 <p align="center">
 <img src="model/profile-template.svg" width="600px"><br>
 Figure 2: Add title of graphic</p>
 
-# Dataset Profile Usage
+# Dataset Profile Usage (optional)
 Explain the usage of the dataset profile using both textual and graphical means. This section helps the reader understand the profile and how it is used in the real world.
 
 Consider using an [activity diagram](https://www.lucidchart.com/pages/uml-activity-diagram), [state diagram](https://www.lucidchart.com/pages/uml-state-machine-diagram), or [sequence diagram](https://www.lucidchart.com/pages/uml-sequence-diagram) to explain process flows and temporal states.
